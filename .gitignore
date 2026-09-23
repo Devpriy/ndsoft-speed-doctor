@@ -1,0 +1,29 @@
+# Local editor settings
+.vscode/
+.idea/
+
+# Environment and credential files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# WordPress and PHP local artifacts
+wp-config.php
+*.log
+error_log
+
+# Archives, backups, and temporary files
+*.bak
+*.backup
+*.tmp
+*.zip
+.DS_Store
+Thumbs.db
+
+# Dependency and build directories
+node_modules/
+vendor/
+dist/
+build/
