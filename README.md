@@ -11,36 +11,38 @@ WordPress PageSpeed and Core Web Vitals diagnostics with safe fixes, AI-assisted
 
 ## Workflow
 
-**Scan -> Diagnose -> Fix Safely -> Verify -> Roll Back if Needed**
+**Scan -> Diagnose -> AI Fix Plan -> Safe Auto Fix -> Fresh Verify -> Roll Back if Needed**
 
 NDsoft Speed Doctor helps WordPress site owners understand performance problems and apply controlled improvements. Results are designed to be reviewable, verifiable, and reversible.
 
-Features include:
+Free includes:
 
 - Mobile and Desktop PageSpeed scans
-- Lighthouse performance diagnostics
-- Core Web Vitals reporting
-- Frontend asset analysis
+- Core Web Vitals and lab metrics
 - Compatibility detection
-- LiteSpeed-aware warnings
-- One-Click Safe Fix
-- LCP optimization guidance
-- Image-dimension diagnostics
-- WordPress emoji cleanup
-- AI Fix Plan
-- Built-in Auto Fix
-- Safe internal actions
-- Rollback support
+- Frontend asset diagnostics
+- Safe low-risk fixes
 - Fresh PageSpeed verification
-- Before vs After comparison
 - Scan history
 - Sanitized system reports
+
+Pro beta features under active testing include:
+
+- AI Fix Plan
+- Built-in Safe Auto Fix
+- Conditional asset optimization
+- Advanced optimization workflow
+- Rollback and reversible changes
+
+The workflow supports Before/After comparison, fresh verification, and a reversible approach. Pro beta features are under active testing and do not guarantee performance results.
 
 Normal users do **not** need to configure an MCP Streamable HTTP URL, MCP bearer token, MCP execution allowlist, or a separate MCP connector plugin. These are handled internally by the simplified Auto Fix workflow.
 
 ## Performance expectations
 
 NDsoft Speed Doctor does not promise guaranteed PageSpeed scores or a guaranteed score of 100. Results depend on hosting, theme, plugins, third-party scripts, caching, media, fonts, and network conditions.
+
+Scheduled PageSpeed Monitoring is not part of beta4.
 
 ## Installation
 
